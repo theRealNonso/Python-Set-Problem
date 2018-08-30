@@ -124,10 +124,10 @@ def hangman(secret_word):
     #display to show the guessed string - intialize blank so letters that are guessed the first time (not repeat) are not considered repeats
     display = "_" * len(secret_word)
   #calculate the number of unique letters in the word
-    unique_letters = " "
-    unique_letters += letter
+    special_letters = " "
+    special_letters += letter
     for letter in secret_word:
-        if letter not in unique_letters:
+        if letter not in special_letters:
     
     #secret_word: string, the secret word to guess.
     
