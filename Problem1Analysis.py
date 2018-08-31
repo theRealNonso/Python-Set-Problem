@@ -1,13 +1,9 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      mmk  , bamise and emmanuel
-#
-# Created:     29/08/2018
-# Copyright:   (c) mmk 2018
-# Licence:     <gloriaconcepto>
-#-------------------------------------------------------------------------------
+
+"""
+Created on Mon Aug 30 13:36:56 2018
+
+@author:  bamise, mmk and emmanuel
+"""
 
 def smallest_num_unsorted_list(unsortlist):
 
