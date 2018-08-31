@@ -12,9 +12,10 @@
 import Problem1Analysis
 import unittest
 
-
+"""
 class TestProblem1Analysis(unittest.TestCase):
-     """
+    
+    """
     Test the smallest_num_unsorted_list() function from the Problem1Analysis library
     """
      def test_smallest_num_unsorted_list(self):
@@ -25,8 +26,22 @@ class TestProblem1Analysis(unittest.TestCase):
         self.assertEqual(result, 3)
 
 
-
+"""
 
 
 if __name__ == '__main__':
     unittest.main()
+    
+def min_number():
+    """"This function find the minimum number in a list by comparing the number
+    with other numbers in the list
+    """
+    gr = [4,2,1,5,3,8]
+    min = gr[0]
+    for i in gr:
+        if i < min:
+            return i
+        else:
+            return [0]
+
+        
